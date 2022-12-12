@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "custom wrapping axios",
   "homepage": "https://github.com/srqAndwr/srqAxios",
-  "main": "index.ts",
+  "main": "./lib/index.ts",
+  "files": ["/lib"],
   "directories": {
     "lib": "lib"
   },
@@ -12,7 +13,8 @@
   },
   "keywords": [
     "axios",
-    "request"
+    "request",
+    "srq"
   ],
   "author": "srqAndwr",
   "license": "ISC",

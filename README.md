@@ -12,11 +12,11 @@
 #### npm
 
 ```sh
-npm install SrqAxios
+npm install srqaxios
 ```
 
 #### yarn
 
 ```sh
-yarn add  SrqAxios
+yarn add  srqaxios
 ```
