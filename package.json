@@ -1,10 +1,12 @@
 {
   "name": "srqaxios",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "custom wrapping axios",
   "homepage": "https://github.com/srqAndwr/srqAxios",
   "main": "./lib/index.ts",
-  "files": ["/lib"],
+  "files": [
+    "/lib"
+  ],
   "directories": {
     "lib": "lib"
   },
