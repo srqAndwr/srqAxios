@@ -1,6 +1,6 @@
 {
     "name": "srqaxios",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "description": "custom wrapping axios",
     "homepage": "https://github.com/srqAndwr/srqAxios",
     "main": "./bin/index.js",
