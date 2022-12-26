@@ -3,7 +3,7 @@
     "version": "1.1.0",
     "description": "custom wrapping axios",
     "homepage": "https://github.com/srqAndwr/srqAxios",
-    "main": "./bin/index.js",
+    "main": "./lib/index.js",
     "files": [
         "lib/*"
     ],
