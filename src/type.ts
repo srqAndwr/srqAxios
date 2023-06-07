@@ -1,8 +1,8 @@
-import type { AxiosError, AxiosRequestConfig, AxiosResponse } from 'axios';
+import type { AxiosError, AxiosResponse, InternalAxiosRequestConfig } from 'axios';
 //请求响应拦截器类型
 export interface Interceptors {
   reqInterceptor?: {
-    success?: (config: AxiosRequestConfig) => AxiosRequestConfig;
+    success?: (config: InternalAxiosRequestConfig) => InternalAxiosRequestConfig;
     fail?: (err: AxiosError) => any;
   };
   respInterceptor?: {
@@ -11,7 +11,7 @@ export interface Interceptors {
   };
 }
 
-export type RequestConfig<D> = AxiosRequestConfig<D> & Interceptors;
+export type RequestConfig<D> = InternalAxiosRequestConfig<D> & Interceptors;
 
 export interface CustomInitialInstanceConfig {
   cancelRequest?: boolean;

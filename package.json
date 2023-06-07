@@ -23,7 +23,7 @@
     "author": "srqAndwr",
     "license": "ISC",
     "devDependencies": {
-        "axios": "^1.2.0",
+        "axios": "^1.4.0",
         "terser-webpack-plugin": "^5.3.6",
         "ts-loader": "^9.4.2",
         "ts-md5": "^1.3.1",
